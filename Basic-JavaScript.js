@@ -106,3 +106,54 @@ const product = 2.0 * 2.5;
 // Change the 0.0 so that quotient will equal to 2.2.
 const quotient = 4.4 / 2.0; // Change this line
 
+/** Finding a Remainder in JavaScript */
+// Set remainder equal to the remainder of 11 divided by 3 using the remainder (%) operator.
+const remainder = 11 % 3;
+
+/** Compound Assignment With Augmented Addition */
+// Convert the assignments for a, b, and c to use the += operator.
+let a = 3;
+let b = 17;
+let c = 12;
+
+// Only change code below this line
+a += 12;
+b += 9;
+c += 7;
+
+/** Compound Assignment With Augmented Subtraction */
+// Convert the assignments for a, b, and c to use the -= operator.
+let a = 11;
+let b = 9;
+let c = 3;
+
+// Only change code below this line
+a -= 6;
+b -= 15;
+c -= 1;
+
+/** Compound Assignment With Augmented Multiplication */
+// Convert the assignments for a, b, and c to use the *= operator.
+let a = 5;
+let b = 12;
+let c = 4.6;
+
+// Only change code below this line
+a *= 5;
+b *= 3;
+c *= 10;
+
+/** Compound Assignment With Augmented Division */
+// Convert the assignments for a, b, and c to use the /= operator.
+let a = 48;
+let b = 108;
+let c = 33;
+
+// Only change code below this line
+a /= 12;
+b /= 4;
+c /= 11;
+
+/** Escaping Literal Quotes in Strings */
+// Use backslashes to assign a string to the myStr variable so that if you were to print it to the console, you would see:
+const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line

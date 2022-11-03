@@ -55,3 +55,54 @@ titleCaseOver = 9000;
 /** Explore Differences Between the var and let Keywords */
 let catName = "Oliver";
 let catSound = "Meow!";
+
+/** Declare a Read-Only Variable with the const Keyword */
+const FCC = "freeCodeCamp"; // Change this line
+let fact = "is cool!"; // Change this line
+fact = "is awesome!";
+console.log(FCC, fact); // Change this line
+
+/** Add Two Numbers with JavaScript */
+// Change the 0 so that sum will equal 20.
+const sum = 10 + 10;
+
+/** Subtract One Number from Another with JavaScript */
+// Change the 0 so the difference is 12.
+const difference = 45 - 33;
+
+/** Multiply Two Numbers with JavaScript */
+// Change the 0 so that product will equal 80.
+const product = 8 * 10;
+
+/** Divide One Number by Another with JavaScript */
+// Change the 0 so that the quotient is equal to 2.
+const quotient = 66 / 33;
+
+/** Increment a Number with JavaScript */
+// Change the code to use the ++ operator on myVar.
+let myVar = 87;
+
+// Only change code below this line
+myVar = ++myVar;
+
+/** Decrement a Number with JavaScript */
+let myVar = 11;
+
+// Only change code below this line
+myVar = --myVar;
+
+/** Create Decimal Numbers with JavaScript */
+// Create a variable myDecimal and give it a decimal value with a fractional part (e.g. 5.7).
+const ourDecimal = 5.7;
+
+// Only change code below this line
+let myDecimal = 5.7;
+
+/** Multiply Two Decimals with JavaScript */
+// Change the 0.0 so that product will equal 5.0.
+const product = 2.0 * 2.5;
+
+/** Divide One Decimal by Another with JavaScript */
+// Change the 0.0 so that quotient will equal to 2.2.
+const quotient = 4.4 / 2.0; // Change this line
+

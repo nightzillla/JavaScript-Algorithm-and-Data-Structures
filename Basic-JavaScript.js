@@ -178,3 +178,70 @@ myStr += "This is the second sentence.";
 // Only change code below this line
 const myName = "Danny";
 const myStr = "My name is" + myName + "and I am well!";
+
+/** Appending Variables to Strings */
+// Set someAdjective to a string of at least 3 characters and append it to myStr using the += operator.
+// Change code below this line
+const someAdjective = "awesome!";
+let myStr = "freeCodecamp is ";
+myStr += someAdjective;
+
+/** Find the Length of a String */
+// Use the .length property to set lastNameLength to the number of characters in lastName.
+// Setup
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Only change code below this line
+lastNameLength = lastName.length;
+
+/** Use Bracket Notation to Find the First Character in a String */
+// Use bracket notation to find the first character in the lastName variable and assign it to firstLetterOfLastName.
+// Setup
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName[0]; // Change this line
+
+/** Understand String Immutability */
+// Correct the assignment to myStr so it contains the string value of Hello World using the approach shown in the example above.
+// Setup
+let myStr = "Jello World";
+
+// Only change code below this line
+myStr = "Hello World"; // Change this line
+// Only change code above this line
+
+/** Use Bracket Notation to Find the Nth Character in a String */
+// Let's try to set thirdLetterOfLastName to equal the third letter of the lastName variable using bracket notation.
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const thirdLetterOfLastName = lastName[2]; // Change this line
+
+/** Use Bracket Notation to Find the Last Character in a String */
+// Use bracket notation to find the last character in the lastName variable.
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
+
+/** Use Bracket Notation to Find the Nth-to-Last Character in a String */
+// Use bracket notation to find the second-to-last character in the lastName string.
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const secondToLastLetterOfLastName = lastName[lastName.length -2]; // Change this line
+
+/** Word Blanks */
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+// Only change code below this line
+var wordBlanks = "The " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + "."; // Only change this line;

@@ -159,3 +159,10 @@ c /= 11;
 const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
 
 /** Quoting Strings with Single Quotes */
+
+/** Basic JavaScript: Escape Sequences in Strings | freeCodeCamp.org */
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
+
+/** Concatenating Strings with Plus Operator */
+// Build myStr from the strings This is the start. and This is the end. using the + operator. Be sure to include a space between the two strings.
+const myStr = "This is the start." + " This is the end."; // Change this line
